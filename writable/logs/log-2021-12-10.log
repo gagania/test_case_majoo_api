@@ -1,0 +1,131 @@
+CRITICAL - 2021-12-10 06:02:00 --> valid_user_name is not a valid rule.
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_user_name')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('user_name', 'user_name', 'admin4', Array, Array)
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\htdocs\majooapi\app\Controllers\Register.php(25): CodeIgniter\Controller->validate(Array)
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#9 {main}
+ERROR - 2021-12-10 10:10:12 --> Unknown column 'email' in 'field list'
+CRITICAL - 2021-12-10 10:10:12 --> Unknown column 'email' in 'field list'
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 D:\htdocs\majooapi\app\Controllers\Register.php(31): CodeIgniter\BaseModel->save(Array)
+#9 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#10 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#14 {main}
+CRITICAL - 2021-12-10 10:56:46 --> Argument 2 passed to CodeIgniter\Validation\Rules::is_unique() must be of the type string, null given, called in D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php on line 277
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(277): CodeIgniter\Validation\Rules->is_unique('admin5', NULL)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('user_name', 'user_name', 'admin5', Array, Array)
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\htdocs\majooapi\app\Controllers\Register.php(26): CodeIgniter\Controller->validate(Array)
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#9 {main}
+CRITICAL - 2021-12-10 13:01:30 --> Illegal string offset 'DBGroup'
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\htdocs\\majoo...', 113, Array)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#2 D:\htdocs\majooapi\app\Controllers\Login.php(25): CodeIgniter\Controller->validate(Array)
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 13:03:32 --> Argument 2 passed to dot_array_search() must be of the type array, string given, called in D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 538
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(538): dot_array_search('user_name', 'user_name=admin...')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(498): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_name', false, NULL, NULL)
+#2 D:\htdocs\majooapi\app\Controllers\Login.php(25): CodeIgniter\HTTP\IncomingRequest->getVar('user_name')
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 13:03:48 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 538
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(538): dot_array_search('user_name', NULL)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(498): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_name', false, NULL, NULL)
+#2 D:\htdocs\majooapi\app\Controllers\Login.php(25): CodeIgniter\HTTP\IncomingRequest->getVar('user_name')
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 13:03:52 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 538
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(538): dot_array_search('user_name', NULL)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(498): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_name', false, NULL, NULL)
+#2 D:\htdocs\majooapi\app\Controllers\Login.php(25): CodeIgniter\HTTP\IncomingRequest->getVar('user_name')
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 13:04:14 --> Argument 2 passed to dot_array_search() must be of the type array, null given, called in D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 538
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(538): dot_array_search('user_name', NULL)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php(498): CodeIgniter\HTTP\IncomingRequest->getJsonVar('user_name', false, NULL, NULL)
+#2 D:\htdocs\majooapi\app\Controllers\Login.php(25): CodeIgniter\HTTP\IncomingRequest->getVar('user_name')
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 13:05:06 --> Call to a member function first() on string
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Login->index()
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 22:33:39 --> Call to a member function getData() on null
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Merchant->index()
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merchant))
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 22:34:20 --> Call to a member function getData() on null
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Merchant->index()
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Merchant))
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 22:36:45 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-10 22:36:54 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-10 22:36:57 --> Cannot declare class App\Models\UserModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-10 22:38:02 --> Table 'db_majoo_test.merchant' doesn't exist
+ERROR - 2021-12-10 22:40:55 --> Table 'db_majoo_test.merchant' doesn't exist
+ERROR - 2021-12-10 22:41:49 --> Table 'db_majoo_test.merchant' doesn't exist
+CRITICAL - 2021-12-10 22:42:03 --> syntax error, unexpected ']'
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\htdocs\\majoo...')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-10 22:42:16 --> Table 'db_majoo_test.merchant' doesn't exist
+ERROR - 2021-12-10 22:45:57 --> Table 'db_majoo_test.merchant' doesn't exist
+ERROR - 2021-12-10 22:45:59 --> Table 'db_majoo_test.merchant' doesn't exist
+ERROR - 2021-12-10 22:46:08 --> Table 'db_majoo_test.merchant' doesn't exist
+CRITICAL - 2021-12-10 22:51:05 --> Cannot declare class App\Models\MerchantModel, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

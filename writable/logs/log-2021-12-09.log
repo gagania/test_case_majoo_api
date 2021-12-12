@@ -1,0 +1,59 @@
+CRITICAL - 2021-12-09 21:13:07 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 21:48:20 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 21:51:40 --> Class 'Config\App\Filters\Cors' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 21:53:57 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 21:55:53 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 21:55:57 --> Class 'Config\App\Filters\Auth' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 22:04:40 --> Class 'Config\App\Filters\Cors' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 22:12:57 --> Class 'Config\App\Filters\Cors' not found
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#4 {main}
+CRITICAL - 2021-12-09 22:15:46 --> valid_user_name is not a valid rule.
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('valid_user_name')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('user_name', 'user_name', 'admin4', Array, Array)
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 D:\htdocs\majooapi\app\Controllers\Register.php(25): CodeIgniter\Controller->validate(Array)
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs\majooapi\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs\\majoo...')
+#9 {main}

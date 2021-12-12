@@ -1,0 +1,60 @@
+CRITICAL - 2021-12-12 07:01:22 --> Too few arguments to function App\Models\OutletsModel::getAll(), 0 passed in D:\htdocs\majooapi\app\Controllers\Outlets.php on line 23 and exactly 1 expected
+#0 D:\htdocs\majooapi\app\Controllers\Outlets.php(23): App\Models\OutletsModel->getAll()
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Outlets->index()
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlets))
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-12 07:01:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'merchants b on b.id=a.merchant_id' at line 2
+ERROR - 2021-12-12 07:02:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b on b.id=a.merchant_idfrom outlets as a' at line 1
+ERROR - 2021-12-12 07:02:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'b on b.id=a.merchant_idfrom outlets as a' at line 1
+ERROR - 2021-12-12 07:03:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'join merchants b on b.id=a.merchant_id from outlets as a' at line 2
+ERROR - 2021-12-12 07:03:40 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'join merchants b on b.id=a.merchant_id from outlets as a' at line 2
+ERROR - 2021-12-12 07:05:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'join merchants b on b.id=a.merchant_id' at line 1
+ERROR - 2021-12-12 07:06:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'merchants b on b.id=a.merchant_id' at line 1
+ERROR - 2021-12-12 07:28:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'merchant_id = 1where id = 3' at line 1
+ERROR - 2021-12-12 07:29:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'merchant_id = 1where id = 3' at line 1
+ERROR - 2021-12-12 07:29:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'merchant_id = 1where id = 3' at line 1
+ERROR - 2021-12-12 07:30:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'merchant_id = 1where id = 3' at line 1
+ERROR - 2021-12-12 07:31:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where id = 3' at line 1
+ERROR - 2021-12-12 07:44:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:44:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:45:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:45:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:45:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:45:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:46:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name from outlets` as ' at line 1
+ERROR - 2021-12-12 07:47:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name join merchants b ' at line 1
+CRITICAL - 2021-12-12 07:49:33 --> Call to a member function select() on null
+#0 D:\htdocs\majooapi\app\Controllers\Outlets.php(61): App\Models\OutletsModel->getAll(Array)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Outlets->outlet_all()
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlets))
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-12 07:49:57 --> Call to a member function select() on null
+#0 D:\htdocs\majooapi\app\Controllers\Outlets.php(61): App\Models\OutletsModel->getAll(Array)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Outlets->outlet_all()
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlets))
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-12 07:52:37 --> Call to a member function select() on null
+#0 D:\htdocs\majooapi\app\Controllers\Outlets.php(61): App\Models\OutletsModel->getAll(Array)
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Outlets->outlet_all()
+#2 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Outlets))
+#3 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-12 07:52:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id`, `a`.`outlet_name`, `a`.`created_at`, `b`.`merchant_name`
+FROM `outlets` a' at line 1
+ERROR - 2021-12-12 07:53:00 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 07:54:04 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 07:54:51 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 07:57:44 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 07:59:12 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 08:01:40 --> Column 'id' in where clause is ambiguous
+ERROR - 2021-12-12 08:02:05 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 08:04:32 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 08:13:24 --> Unknown column 'b.merchant_id' in 'where clause'
+ERROR - 2021-12-12 08:14:54 --> Unknown column 'b.merchant_id' in 'where clause'

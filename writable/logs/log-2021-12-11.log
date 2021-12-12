@@ -1,0 +1,74 @@
+CRITICAL - 2021-12-11 03:07:23 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\htdocs\\majoo...')
+#1 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 D:\htdocs\majooapi\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs\majooapi\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-11 03:07:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `blogs`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.`id`' at line 1
+ERROR - 2021-12-11 03:09:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:09:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:10:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:10:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:11:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:11:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:12:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:12:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:12:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:12:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')name
+FROM `transactions`
+JOIN `merchants` ON `merchants`.`id` = `transactions`.' at line 1
+ERROR - 2021-12-11 03:27:49 --> Unknown column 'created_date' in 'where clause'
+ERROR - 2021-12-11 03:27:59 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:28:03 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:28:46 --> Illegal parameter data types int and row for operation '='
+ERROR - 2021-12-11 03:28:56 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:28:58 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:28:59 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:29:00 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:30:13 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:30:28 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:30:30 --> Column 'created_at' in where clause is ambiguous
+ERROR - 2021-12-11 03:34:25 --> Unknown column 'transaction.outlet_id' in 'where clause'
+ERROR - 2021-12-11 03:36:57 --> Unknown column 'transaction.outlet_id' in 'where clause'
+ERROR - 2021-12-11 10:18:13 --> Unknown column 'transactions.merchant_id' in 'on clause'
+ERROR - 2021-12-11 12:31:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1') as merchant_name
+FROM `calendar`' at line 3
+ERROR - 2021-12-11 12:31:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1') as merchant_name
+FROM `calendar`' at line 3
+ERROR - 2021-12-11 12:32:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1') as merchant_name
+FROM `calendar`' at line 3
+ERROR - 2021-12-11 12:32:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM calendar' at line 1
+ERROR - 2021-12-11 12:33:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM calendar' at line 1
+ERROR - 2021-12-11 12:34:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM calendar' at line 1
+ERROR - 2021-12-11 12:34:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM calendar' at line 1
+ERROR - 2021-12-11 12:36:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1') as merchant_name
+FROM `calendar`' at line 3
+ERROR - 2021-12-11 12:38:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '1') as merchant_name
+FROM `calendar`' at line 3
+ERROR - 2021-12-11 20:20:00 --> Table 'db_majoo_test.calendar_outlet' doesn't exist
+ERROR - 2021-12-11 20:21:15 --> Table 'db_majoo_test.calendar_outlet' doesn't exist
+ERROR - 2021-12-11 20:24:08 --> Table 'db_majoo_test.calendar_outlet' doesn't exist
